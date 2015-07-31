@@ -1,0 +1,25 @@
+$('#divBox').hide();
+
+
+
+window.oncontextmenu = function (e)
+{
+    showCustomMenu(e);
+    return false;     // cancel default menu
+}
+    
+$('html').on('click', function(e) {
+   // e.preventDefault();
+   // $('#questionMarkId').css( 'position', 'absolute' );
+   // $('#questionMarkId').css( 'top', e.pageY );
+   // $('#questionMarkId').css( 'left', e.pageX );
+    $('#divBox').hide();
+});
+
+function showCustomMenu(e){
+     e.preventDefault();
+    $('#divBox').css( 'position', 'absolute' );
+    $('#divBox').css( 'top', e.pageY );
+    $('#divBox').css( 'left', e.pageX );
+    $('#divBox').show();
+}
