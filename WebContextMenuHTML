@@ -1,0 +1,19 @@
+<div class="boxFAQ" id="divBox">
+  <span id="divTitle"></span>  
+  <a href="#" class="copyButton">Copy</a><br />
+    <a href="#" class="pasteButton">Paste</a><br />
+</div>
+
+<a href='#' id='click1'>CLICK ME!</a>
+<br /><br />Lorem Ipsum Text and some stuff<br /><br /><br /><br /><br /><br /><br />
+
+<a href='#' id='click2'>I'm a link too</a>
+
+<form>
+First name:<br>
+    <input type="text" name="firstname">
+</form>
+
+<div oncontextmenu="javascript:alert('success!');return false;">
+    Something needs to be here
+</div>
